@@ -1,0 +1,8 @@
+[[language]]
+file-types = ["md", "txt"]
+indent = { tab-width = 2, unit = "  " }
+injection-regex = "md|markdown"
+language-server = { command = "ltex-ls" }
+name = "markdown"
+roots = [".git"]
+scope = "source.md"
